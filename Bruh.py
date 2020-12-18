@@ -6,10 +6,12 @@ class MyClass():
         self.n=n
         a= np.zeros(shape=[n])
         i=0
+        
         while(i<n):
             b+=q
             i+=1
             a[i-1]=b
+            print(a[i-1])
         return a
     def Return_k(self,a,k):
         ku=0
@@ -18,9 +20,11 @@ class MyClass():
             self.b+=self.q
             if(i<=k)&(k<=self.n):
                 ku+=self.b
+                print(ku)
             i+=1
             a[i-1]=self.b
         return(ku)
 if __name__ == '__main__':
     c=MyClass()
-    c.Progression(1,2,3)
+    cer=c.Progression(1,3,5)
+    cer=Return_k(cer,5)
