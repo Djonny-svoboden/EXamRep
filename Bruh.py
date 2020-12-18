@@ -27,4 +27,4 @@ class MyClass():
 if __name__ == '__main__':
     c=MyClass()
     cer=c.Progression(1,3,5)
-    cer=Return_k(cer,5)
+    c.Return_k(cer,5)
