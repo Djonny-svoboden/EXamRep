@@ -16,7 +16,7 @@ class MyClass():
         i=0
         while(i<self.n):
             self.b+=self.q
-            if(i<k)&(k<self.n):
+            if(i<=k)&(k<=self.n):
                 ku+=self.b
             i+=1
             a[i-1]=self.b
