@@ -7,7 +7,7 @@ class MyClass():
         a= np.zeros(shape=[n])
         i=0
         while(i<n):
-            b*=q
+            b+=q
             i+=1
             a[i-1]=b
         return a
