@@ -21,5 +21,6 @@ class MyClass():
             i+=1
             a[i-1]=self.b
         return(ku)
-c=MyClass()
-c.Progression(1,2,3)
+if __name__ == '__main__':
+    c=MyClass()
+    c.Progression(1,2,3)
